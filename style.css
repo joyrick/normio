@@ -362,7 +362,7 @@ h2, h3 {
 
 @media (max-width: 768px) {
   .heading p {
-    font-size: clamp(20px, 10vw, 320px);
+    font-size: clamp(40px, 30vw, 320px);
   }
   .image-grid {
     position: relative;
@@ -389,7 +389,7 @@ h2, h3 {
   }
 
   p {
-    font-size: clamp(40px, 30vw, 320px);
+    font-size: clamp(40px, 10vw, 320px);
   }
 }
 
@@ -422,6 +422,6 @@ h2, h3 {
   }
 
   p {
-    font-size: clamp(40px, 30vw, 320px);
+    font-size: clamp(40px, 10vw, 320px);
   }
 }
