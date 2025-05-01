@@ -329,7 +329,15 @@ h2, h3 {
     font-size: clamp(40px, 30vw, 320px);
   }
   .image-grid {
-    margin-top: 80%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0.2rem;
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 40vh;
+    z-index: -1;
   }
 }
 
