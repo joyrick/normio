@@ -391,6 +391,7 @@ h2, h3 {
     border-bottom: 1px solid #ddd;
     z-index: 1000;
     padding: 1rem 0;
+    font-size: 4rem;
   }
 
   p {
