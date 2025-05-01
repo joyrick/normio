@@ -365,16 +365,7 @@ h2, h3 {
     font-size: clamp(40px, 10vw, 320px);
   }
   .image-grid {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 0.2rem;
-    width: 70vw;
-    margin: 0 auto;
-    margin-top: 40%;
-    padding-top: 40vh;
-    z-index: -1;
+    display:none;
   }
 
   .image-grid img {
@@ -423,16 +414,7 @@ h2, h3 {
     font-size: clamp(35px, 10vw, 280px);
   }
   .image-grid {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 0.2rem;
-    width: 70vw;
-    margin: 0 auto;
-    margin-top: 40%;
-    padding-top: 40vh;
-    z-index: -1;
+    display:none;
   }
   .image-grid img {
     display: none;
