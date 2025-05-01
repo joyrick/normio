@@ -329,7 +329,7 @@ h2, h3 {
     font-size: clamp(40px, 30vw, 320px);
   }
   .image-grid {
-    margin-top: 15vh;
+    margin-top: 80%;
   }
 }
 
