@@ -364,14 +364,7 @@ h2, h3 {
   .heading p {
     font-size: clamp(40px, 10vw, 320px);
   }
-  .image-grid {
-    display:none;
-  }
 
-  .image-grid img {
-    display: none;
-  }
-  
   .navbar {
     position: fixed;
     top: 0;
@@ -413,12 +406,7 @@ h2, h3 {
   .heading p {
     font-size: clamp(35px, 10vw, 280px);
   }
-  .image-grid {
-    display:none;
-  }
-  .image-grid img {
-    display: none;
-  }
+
   .navbar {
     position: fixed;
     top: 0;
