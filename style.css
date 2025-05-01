@@ -59,14 +59,23 @@ body {
 
 
 /* box */
-.box {
-  width: 200px;
-  height: 80px;
-  text-align: center;
-  line-height: 80px;
-  font-size: 20px;
-  color: var(--color-just-black);
+.gradient-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border: none;
   border-radius: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+
+.gradient-button:hover {
+  background: linear-gradient(135deg, #0072ff, #00c6ff);
+  transform: translateY(-2px);
 }
 /* Navbar Styles */
 .navbar {
