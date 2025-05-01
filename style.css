@@ -328,6 +328,9 @@ h2, h3 {
   .heading p {
     font-size: clamp(40px, 30vw, 320px);
   }
+  .image-grid {
+    margin-top: 15vh;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
