@@ -376,6 +376,11 @@ h2, h3 {
     padding-top: 40vh;
     z-index: -1;
   }
+
+  .image-grid img {
+    display: none;
+  }
+  
   .navbar {
     position: fixed;
     top: 0;
@@ -412,6 +417,9 @@ h2, h3 {
     margin-top: 40%;
     padding-top: 40vh;
     z-index: -1;
+  }
+  .image-grid img {
+    display: none;
   }
   .navbar {
     position: fixed;
