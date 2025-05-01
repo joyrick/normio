@@ -38,3 +38,16 @@ navLinks.forEach(link => {
     }
   });
 });
+
+// Smooth scroll for the gradient button
+const gradientButton = document.querySelector(".gradient-button");
+if (gradientButton) {
+  gradientButton.addEventListener("click", function(e) {
+    e.preventDefault();
+    const targetId = this.getAttribute("href");
+    const targetEl = document.querySelector(targetId);
+    if (targetEl) {
+      smoother.scrollTo(targetEl, true, "top top");
+    }
+  });
+}
