@@ -139,6 +139,7 @@ body {
 
 .text-container p:first-child {
   color: #111;
+  margin-left: 10%;
 }
 
 h1 {
