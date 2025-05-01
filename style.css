@@ -389,7 +389,11 @@ h2, h3 {
   }
 
   p {
-    font-size: clamp(40px, 10vw, 320px);
+    font-size: 0.5rem;
+  }
+
+  .title.container p {
+    font-size: 0.5rem;
   }
 }
 
@@ -422,6 +426,10 @@ h2, h3 {
   }
 
   p {
-    font-size: clamp(40px, 10vw, 320px);
+    font-size: 0.5rem;
+  }
+
+  .title.container p {
+    font-size: 0.5rem;
   }
 }
