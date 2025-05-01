@@ -336,6 +336,7 @@ h2, h3 {
     grid-gap: 0.2rem;
     width: 70vw;
     margin: 0 auto;
+    margin-top: 40%;
     padding-top: 40vh;
     z-index: -1;
   }
@@ -344,5 +345,17 @@ h2, h3 {
 @media (min-width: 769px) and (max-width: 1024px) {
   .heading p {
     font-size: clamp(35px, 10vw, 280px);
+  }
+  .image-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0.2rem;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 40%;
+    padding-top: 40vh;
+    z-index: -1;
   }
 }
