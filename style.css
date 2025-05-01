@@ -349,7 +349,7 @@ h2, h3 {
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid #ddd;
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 5rem 0;
   }
 }
 
@@ -378,6 +378,6 @@ h2, h3 {
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid #ddd;
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 5rem 0;
   }
 }
