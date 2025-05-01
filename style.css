@@ -326,7 +326,7 @@ h2, h3 {
 
 @media (max-width: 768px) {
   .heading p {
-    font-size: clamp(40px, 12vw, 320px);
+    font-size: clamp(40px, 30vw, 320px);
   }
 }
 
