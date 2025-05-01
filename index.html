@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elevate | Smart Scroll Experiences</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,900;1,900&family=Outfit:wght@100;300;500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+  <nav class="navbar">
+    <div class="container">
+      <h2 class="logo">Norm.io</h2>
+      <ul class="nav-links">
+        <li><a href="#content">Domov</a></li>
+        <li><a href="#features">Ako to funguje?</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="content">
+    <!-- Hero Section -->
+    <div class="heading" aria-hidden="true">
+      <p>BROWSUJ<br>MENEJ.</p>
+      <div class="text-container">
+        <p>tvor viac.</p>
+        <p data-speed="0.95">tvor viac.</p>
+        <p data-speed="0.9">tvor viac.</p>
+        <p data-speed="0.85">tvor viac.</p>
+        <p data-speed="0.8">tvor viac.</p>
+        <p data-speed="0.75">tvor viac.</p>
+        <p data-speed="0.7">tvor viac.</p>
+      </div>
+    </div>
+
+    <!-- Showcase Grid -->
+    <section class="image-grid container">
+      <div class="image_cont" data-speed="1">
+        <img data-speed="auto" src="https://images.unsplash.com/photo-1556856425-366d6618905d?auto=format&fit=crop&w=400&q=60" alt="App UI Preview">
+      </div>
+      <div class="image_cont" data-speed="1.7">
+        <img data-speed="auto" src="https://images.unsplash.com/photo-1520271348391-049dd132bb7c?auto=format&fit=crop&w=400&q=80" alt="Dashboard Snapshot">
+      </div>
+      <div class="image_cont" data-speed="1.5">
+        <img data-speed="auto" src="https://images.unsplash.com/photo-1609166214994-502d326bafee?auto=format&fit=crop&w=400&q=80" alt="Data Integration UI">
+      </div>
+    </section>
+
+    <!-- Tagline Section -->
+    <section class="title container flow--lg" id="features">
+    
+      <h1><span class="eyebrow">Všetky normy</span> na jednom mieste</h1>
+      <p>Prehľadné schémy, odpovede na špecifické otázky a mnohé iné funkcionality <br>Sme automatizačná platforma pre architektov, inžinierov, pre kohokoľvek</p>
+
+      <img class="device_preview" src="images/device_preview.png">
+      
+    </section>
+
+    <!-- Feature Highlight Bars -->
+    <section class="bars container">
+      <div class="bars-text">
+        <div class="flow content">
+          <h2>Custom Scroll Speed</h2>
+          <p>Enhance UX by animating interface elements at varying scroll speeds to guide attention.</p>
+        </div>
+      </div>
+      <div class="bars-cont">
+        <div class="bar" data-speed="0.8"><p>AI asistent</p></div>
+        <div class="bar" data-speed="0.9"><p>Jednoduché a prehľadné rozhranie</p></div>
+        <div class="bar" data-speed="1"><p>Intuitívne schémy</p></div>
+        <div class="bar" data-speed="1.1"><p>Výpočty a kalkulácie</p></div>
+        <div class="bar" data-speed="1.2"><p>bezpečná práca s Vašimi dátami</p></div>
+      </div>
+    </section>
+
+    <!-- Full Width Parallax Banner -->
+    <section class="v-center">
+      <div class="parallax-slab">
+        <img data-speed="auto" src="https://assets.codepen.io/756881/smoothscroller-1.jpg" alt="Parallax Demo">
+      </div>
+    </section>
+
+    <!-- Staggered Animation Text -->
+    <section class="staggered container">
+      <div class="staggered_text">
+        <div class="flow content">
+          <h2>Intentional Lag Effects</h2>
+          <p>Deliver a tactile sense of motion and momentum with precision control.</p>
+        </div>
+      </div>
+      <div class="staggered_demo">
+        <h3 id="split-stagger">Majte stále prehľad!</h3>
+      </div>
+    </section>
+
+    <!-- Parallax Product Shots -->
+    <section class="parallax-images container">
+      <div class="parallax-text">
+        <div class="flow content">
+          <h2>Immersive Visuals</h2>
+          <p>Wrap your brand in stunning, scroll-synced imagery with simple markup and zero layout stress.</p>
+        </div>
+      </div>
+      <div class="image_cont">
+        <img data-speed="auto" src="images/Veselko_Kuchtak_poc_ui.png" alt="Product Shot 1">
+      </div>
+      <div class="image_cont">
+        <img data-speed="auto" src="https://assets.codepen.io/756881/neon2.jpg" alt="Product Shot 2">
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <footer class="contact container" id="contact">
+      <h2>Contact Us</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </footer>
+
+    <!-- Footer Spacer -->
+    <section class="spacer"></section>
+  </section>
+</div>
+
+<script src='https://assets.codepen.io/16327/gsap-latest-beta.min.js'></script>
+<script src='https://assets.codepen.io/16327/ScrollTrigger.min.js'></script>
+<script src='https://assets.codepen.io/16327/ScrollSmoother.min.js'></script>
+<script src='https://assets.codepen.io/16327/SplitText3.min.js'></script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
