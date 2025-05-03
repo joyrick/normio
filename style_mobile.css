@@ -1,0 +1,199 @@
+@media (max-width: 768px) {
+
+  #lowerheading h5{
+    overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      font-size: 2vmax;
+      text-transform: uppercase;
+  
+  }
+
+  .middle{
+    width: 100%;
+    /* height: 100vh; */
+    /* overflow:hidden; */
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.middle .elements{
+    margin: 0vh 3vmax;
+    width: 100%;
+    margin-top: 10vmin;
+}
+.middle .elements .elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6vmin 0vh;
+    border-top: 2px solid #888;
+  position: relative;
+}
+.middle .elements .elem h1{
+    font-size: 6vmax;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20vh;
+    opacity: .7;
+}
+.middle .elements #lastElem{
+    border-bottom: 2px solid #888;
+}
+
+.image-btn {
+  background-image: url('images/gradient.png'); /* replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-bottom: 7vh;
+
+  color: #111;
+  font-size: 4vmax;
+  padding: 0.5vmax 7vmax;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  transition: transform 0.3s ease;
+}
+
+.image-btn:hover {
+  transform: scale(1.05); /* slight hover zoom */
+}
+
+#subscribe{
+  width: 100%;
+ padding: 1.5vmax 3vmax;
+ padding-bottom: 20vh;
+}
+#subscribe h5 ,h3{
+text-transform: uppercase;
+}
+#subscribe h5{
+  opacity: .6;
+  font-size: 2vmax;
+}
+#subscribe h3{
+  font-size: 3vmax;
+  margin-top: .6vmax;
+}
+
+
+  .mobile_display_none {
+    display:none;
+  }
+
+    #image_holder {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #image_holder img {
+      max-width: 100%;
+    }
+
+    #image_holder p{
+      font-size: larger;
+    }
+  
+
+  #about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-block {
+    width: 20vw;
+  }
+
+  .about-block img {
+    max-height: 30vh;
+    width:auto;
+  }
+
+  .about-block h5 {
+    font-size: large;
+  }
+  .about-block p {
+    font-size: medium;
+  }
+
+  #contact {
+    padding: 10vh 3vmax;
+    background-color: black;
+    text-align: center;
+  }
+  
+  #contact h3 {
+    font-size: 2vmax;
+    margin-bottom: 3vmax;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.8;
+  }
+  
+  #contactForm {
+    max-width: 600px;
+    padding-top: 4vh;;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmax;
+  }
+  
+  #contactForm input,
+  #contactForm textarea {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1vmax;
+    font-size: 2vmax;
+    color: white;
+    border-radius: 0.5vmax;
+    resize: none;
+  }
+  
+  #contactForm textarea {
+    min-height: 15vh;
+  }
+  
+  #contactForm input::placeholder,
+  #contactForm textarea::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  #contactForm button {
+    background-color: white;
+    color: black;
+    font-size: 2vmax;
+    border: none;
+    padding: 1vmax;
+    border-radius: 0.5vmax;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contactForm button:hover {
+    background-color: #ccc;
+  }
+
+  .footer{
+    padding: 0px 3vmax ;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+   
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 2vmax;
+}
+}
